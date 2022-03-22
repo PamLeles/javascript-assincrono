@@ -1,0 +1,56 @@
+aula de javascript Assíncrono
+
+-Assíncrono "que não ocorre ou não se efetiva ao mesmo tempo".
+
+-o javascript roda de maneira Síncrona.
+
+-Promises:
+objeto de processamento assincrono
+inicialmente seu valor é desconhecido. ela pode, então, ser resolvida ou 
+rejeitada.
+
+promises tem tres estados 
+1 pending 
+2 fulfilled 
+3 rejected
+
+
+-Async / Await
+funções assíncronas precisam dessas duas palavras chave.
+funções assíncronas também retornam promises
+pode utilizar try...catch
+
+-APis
+o que são: Application Programming Interface 
+uma api é uma forma de intermediar os resultados do back-end com
+o que é apresentado no front-end você consegue acessá-la por meio de 
+URLs.
+
+-JSON: javascript Object Notation
+é muito comum que apis retornem seus foramto .json, portato precisam
+tratar esses dados quando os recebermos.
+
+-Método Fetch
+fetch(url, option)
+retorna promises
+converter respostas como.json caso venha como string
+utilizar await
+operações nop ban(post, get, put, delete, etc)
+
+___________________________________________________________
+atividade Prática
+
+Nesta atividade, vamos criar uma página que carrega fotos aleatórias de
+ gatinhos sempre que clicamos em um botão.
+
+  1.  Utilize a API https://thatcopy.pw/catapi/rest para fazer as chamadas 
+como método fetch();
+  2. Utilize seus conhecimentos na manipulação do DOM para criar a 
+imagem e ativar o evento de clique do botão!
+
+
+
+
+
+
+
